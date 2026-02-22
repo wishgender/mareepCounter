@@ -36,6 +36,7 @@ button#SleepButton:hover {
 #mareepEnclosure img#nightSkyBG {
     width: 100%;
     transition: filter 0.4s ease;
+    image-rendering: pixelated;
 }
 
 img#nightSkyBG.dim {
