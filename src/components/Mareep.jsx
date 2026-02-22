@@ -6,9 +6,9 @@
 
 const shinyOdds = 50;
 const mareepSprites = [
-    'bw', 'c', 'dp', 'e',
-    'g', 'hgss', 'oras', 'pt',
-    'rs', 's', 'usum', 'xy'
+    'bw', 'b2w2', 'c', 'dp',
+    'e', 'g', 'hgss', 'oras',
+    'pt', 'rs', 's', 'xy'
 ];
 
 export const Mareep = ({ onFinish }) => {
