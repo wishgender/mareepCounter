@@ -1,0 +1,15 @@
+html {
+    width: 100%;
+    background-color: midnightblue;
+}
+
+div#titleInfo>h1 {
+    color: yellow;
+    text-align: center;
+    font-family: 'Comic Sans MS', sans-serif
+}
+
+#appWrapper {
+    display: flex;
+    justify-content: center;
+}

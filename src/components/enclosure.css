@@ -1,0 +1,88 @@
+/* 
+    laz r
+    02-21-2026 13:03
+    enclosure.css
+*/
+
+#enclosureWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+div#sleepButtonWrapper {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button#SleepButton {
+    background-color: transparent;
+    border: none
+}
+
+button#SleepButton:hover {
+    cursor: pointer
+}
+
+#mareepEnclosure {
+    width: 100%;
+    max-width: 600px;
+    position: relative;
+    border: 3px solid palegoldenrod;
+    overflow: hidden;
+}
+
+#mareepEnclosure img#nightSkyBG {
+    width: 100%;
+    transition: filter 0.4s ease;
+}
+
+img#nightSkyBG.dim {
+    filter: brightness(40%);
+}
+
+img#nightSkyBG.bright {
+    filter: brightness(100%);
+}
+
+.mareep {
+    position: absolute;
+    left: -10%;
+    top: 69%;
+    animation-name: crossScreen;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+}
+
+.mareep.flip {
+    transform: scaleX(-1);
+}
+
+@keyframes crossScreen {
+    0% {
+        left: -10%;
+    }
+
+    30% {
+        left: 50%;
+        top: 69%;
+    }
+
+    40% {
+        left: 60%;
+        top: 40%;
+    }
+
+    100% {
+        left: 100%;
+        top: 69%;
+    }
+}
+
+.counter {
+    font-size: large;
+    font-family: 'Comic Sans MS', sans-serif;
+    color: lightgoldenrodyellow;
+    text-align: center;
+}
