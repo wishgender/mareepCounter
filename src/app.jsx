@@ -14,6 +14,7 @@ export function App() {
             <div id="appWrapper">
                 <MareepEnclosure />
             </div>
+            <footer>WishGender 2026 | Background pixel art by <a href='https://vivy-nx.neocities.org/'>Vivy-NX</a></footer>
         </>
     )
 }

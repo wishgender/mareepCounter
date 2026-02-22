@@ -13,3 +13,8 @@ div#titleInfo>h1 {
     display: flex;
     justify-content: center;
 }
+
+footer {
+    font-family: 'Comic Sans MS', sans-serif;
+    color: lightgoldenrodyellow;
+}
