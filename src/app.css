@@ -15,6 +15,7 @@ div#titleInfo>h1 {
 }
 
 footer {
+    text-align: center;
     font-family: 'Comic Sans MS', sans-serif;
     color: lightgoldenrodyellow;
 }

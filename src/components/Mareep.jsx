@@ -4,7 +4,7 @@
 
 //= Dependencies =//
 
-const shinyOdds = 10;
+const shinyOdds = 50;
 const mareepSprites = [
     'bw', 'c', 'dp', 'e',
     'g', 'hgss', 'oras', 'pt',
